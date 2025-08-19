@@ -401,7 +401,7 @@ export interface ApiCartItemCartItem extends Struct.CollectionTypeSchema {
       Schema.Attribute.Required &
       Schema.Attribute.SetMinMax<
         {
-          max: 1;
+          min: 0;
         },
         number
       >;

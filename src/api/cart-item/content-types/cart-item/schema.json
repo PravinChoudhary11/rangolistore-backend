@@ -15,7 +15,7 @@
     "quantity": {
       "type": "integer",
       "required": true,
-      "max": 1
+      "min": 0
     },
     "unitPrice": {
       "type": "decimal",
